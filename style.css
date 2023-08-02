@@ -12,14 +12,14 @@ p{
     color: dimgray;
     text-align: justify;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 37%;
     float: left;
     margin-left: 5%;
-    padding: 2%;
+    padding: 3%;  
 }
 .half-width img{
     width: 80%;
@@ -41,4 +41,35 @@ p{
 section{
     height: 500px;
     padding-bottom: 50px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100px 250px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 5px;
+    background-color: white;
+}
+#lecturer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(189deg, blue, cyan);
+    border-image-slice: 1;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
